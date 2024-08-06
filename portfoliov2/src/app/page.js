@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <main className={`home ${theme}`}>
-      <div content="width=device-width, initial-scale=1.0" className= {`container ${theme}`}>
+      <div className= {`container ${theme}`}>
         <Navbar theme={theme} setTheme={setTheme}/>
         <Hero theme={theme} setTheme={setTheme}/>
         <Project theme={theme} setTheme={setTheme}/>

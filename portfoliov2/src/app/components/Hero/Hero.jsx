@@ -1,6 +1,6 @@
 const Hero = ({theme}) => {
     return(
-        <section content="width=device-width, initial-scale=1.0" className="flex w-[1150px] justify-center items-center my-[56px]">
+        <section className="flex w-[1150px] justify-center items-center my-[56px]">
             <div className="flex w-full justify-between items-center px-[30px]">
                 <div className={`aboutmy ${theme}`}>
                     <p className={`hlo ${theme}`}>Hello! I am</p> 

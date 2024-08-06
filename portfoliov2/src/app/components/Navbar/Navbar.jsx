@@ -7,7 +7,7 @@ const Navbar = ({theme, setTheme}) => {
     }
 
     return(
-        <section content="width=device-width, initial-scale=1.0" className="top w-[1150px] h-[80px] justify-center items-center bg-[#EEF7F5]">
+        <section className="top w-[1150px] h-[80px] justify-center items-center bg-[#EEF7F5] md:w">
             <div className="flex h-full justify-between items-center px-[30px]">
                 <button className={`homebtn ${theme}`}>
                     <div className="flex justify-center items-center">
