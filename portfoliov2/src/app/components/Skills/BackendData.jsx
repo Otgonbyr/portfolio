@@ -4,7 +4,7 @@ const BackendData = [
         title: "MongoDB",
     },
     {
-        icon: "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",
+        icon: "https://www.shareicon.net/data/256x256/2015/09/11/99371_javascript_512x512.png",
         title: "NodeJs",
     },
     {
@@ -24,7 +24,7 @@ const BackendData = [
         title: "Graphql",
     },
     {
-        icon: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png",
+        icon: "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png",
         title: "NextJs",
     },
     {

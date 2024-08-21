@@ -4,7 +4,7 @@ import ToolsSection from "./ToolsData";
 
 export default function Skills({theme}) {
     return(
-        <section className="flex w-[1150px] justify-center items-center flex-wrap mb-[100px]">
+        <section id="skills" className="flex w-[1150px] justify-center items-center flex-wrap mb-[100px]">
             <div className="flex flex-col px-[30px] mt-[20px]">
                 <p className={`tech ${theme}`}>TECHNOLOGY</p>
                 <hr className={`hr ${theme}`} />

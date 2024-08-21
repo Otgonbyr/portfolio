@@ -5,19 +5,25 @@ const Projects = [
         url: "https://otgonbayar.vercel.app/"
     },
     {
+        name: "GoGo clone",
+        about: "A clone website is a site that replicates the design and often content of another existing website.",
+        url: "https://gogo-clone.vercel.app/"
+    },
+    {
         name: "Expense tracker",
-        about: "Keep track of your daily expenses.",
-        url: ""
+        about: "Keep track of your daily expenses."
     },
     {
         name: "Ecommerce",
-        about: "An online store for all your needs.",
-        url: ""
+        about: "An online store for all your needs."
     },
     {
         name: "Food Delivery",
         about: "Get your favorite meals delivered to your doorstep.",
-        url: ""
+    },
+    {
+        name: "CMS-Articles",
+        about: "Content Management System"
     }
 ]
 

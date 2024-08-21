@@ -4,7 +4,7 @@ const FrontendData = [
         title: "HTML",
     },
     {
-        icon: "https://static-00.iconduck.com/assets.00/file-type-css-icon-902x1024-dqy5inwy.png",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/768px-CSS3_logo.svg.png",
         title: "CSS",
     },
     {
@@ -16,7 +16,7 @@ const FrontendData = [
         title: "ReactJS",
     },
     {
-        icon: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-y563b8iq.png",
+        icon: "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png",
         title: "NextJS",
     },
     {
@@ -24,7 +24,7 @@ const FrontendData = [
         title: "Tailwindcss",
     },
     {
-        icon: "https://static-00.iconduck.com/assets.00/material-ui-icon-1024x814-sytj0yhk.png",
+        icon: "https://mui.com/static/logo.png",
         title: "MaterialUI",
     },
     {
