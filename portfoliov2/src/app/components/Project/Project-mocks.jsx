@@ -11,7 +11,8 @@ const Projects = [
     },
     {
         name: "Expense tracker",
-        about: "Keep track of your daily expenses."
+        about: "Keep track of your daily expenses.",
+        url: "https://expensetracker-client-ochre.vercel.app/"
     },
     {
         name: "Ecommerce",
