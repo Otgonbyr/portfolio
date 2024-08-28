@@ -1,6 +1,6 @@
 export default function Footer({theme}) {
     return(
-        <section className="flex w-[1150px] justify-center flex-col mb-[20px]">
+        <section className="flex w-full max-w-[1150px] justify-center flex-col mb-[20px]">
             <div className="px-[30px]">
                 <hr className={`hr ${theme}`} />
             </div>

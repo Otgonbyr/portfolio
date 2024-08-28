@@ -7,8 +7,8 @@ const Navbar = ({theme, setTheme}) => {
     }
 
     return(
-        <section className="top w-[1150px] h-[80px] bg-[#EEF7F5] ">
-            <div className="flex h-full justify-between items-center px-[30px] md:px-[30px]">
+        <section className="top w-full max-w-[1150px] h-[80px] bg-[#EEF7F5] mx-auto">
+            <div className="flex h-full justify-between items-center px-[30px] md:flex-row">
                 <button className={`homebtn ${theme}`}>
                     <div className="flex justify-center items-center">
                         <img width="25" height="25" src="https://img.icons8.com/office/40/potato.png" alt="potato"/>   
