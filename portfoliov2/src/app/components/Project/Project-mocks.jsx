@@ -32,7 +32,7 @@ export default function frontendSection({ theme }) {
     return (
         <div className="project-section">
             {Projects.map((item, index) => (
-                <div key={index} className={`projects ${theme}`}>
+                <div key={index} className={`projects ${theme} p-4 rounded-lg shadow-lg bg-white`}>
                     <a href={item.url} target="_blank" rel="noopener noreferrer" className="flex gap-[10px] flex-col">
                         {item.name}
                         <p className={`project-about`}>{item.about}</p>

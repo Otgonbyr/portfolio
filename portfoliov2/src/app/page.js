@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <main className={`home ${theme}`}>
-      <div className= {`container ${theme}`}>
+      <div className= {`container ${theme} mx-auto px-4 sm:px-6 lg:px-8`}>
         <Navbar theme={theme} setTheme={setTheme}/>
         <Hero theme={theme} setTheme={setTheme}/>
         <Project theme={theme} setTheme={setTheme}/>

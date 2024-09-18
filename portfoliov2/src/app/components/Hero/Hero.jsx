@@ -12,7 +12,7 @@ const Hero = ({theme}) => {
                             <p className={`name ${theme}`}>JUNIOR</p>
                             <p>Front-End Developer</p> 
                         </div>
-                    <p className="my-[10px] text-[#B8B8B8] mb-[30px] text-[14px] md:text-[16px] leading-relaxed">I am a recent graduate of Pinecone Academy, where I earned a certificate in Fullstack Developer. I have gained practical experience in web development, including both frontend and backend technologies, through intensive projects and coursework. With a passion for creating innovative web solutions and a commitment to continuous learning, I am eager to contribute to the success of dynamic tech companies.</p>        
+                    <p className="my-[10px] text-[#B8B8B8] mb-[30px] text-[14px] md:text-[16px] leading-relaxed mx-auto">I am a recent graduate of Pinecone Academy, where I earned a certificate in Fullstack Developer. I have gained practical experience in web development, including both frontend and backend technologies, through intensive projects and coursework. With a passion for creating innovative web solutions and a commitment to continuous learning, I am eager to contribute to the success of dynamic tech companies.</p>        
                     <a href="/oggyresume.pdf" download className={`getresume ${theme} `}>
                         Get my resume
                     </a>
