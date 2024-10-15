@@ -4,7 +4,7 @@ export default function Project({theme}) {
     return(
         <section id="project" className="flex w-full max-w-[1150px] justify-center items-center flex-wrap">
             <div className="flex flex-col px-[30px] my-[50px]">
-                <p className={`tech ${theme}`}>PROJECT</p>
+                <p className={`tech ${theme} max-md:text-[15px]`}>PROJECT</p>
                 <hr className={`hr ${theme}`} />
                 <AllProject theme={theme}/>
             </div>
