@@ -198,7 +198,6 @@ html {
     border-radius: 5px;
     color: white;
     transition: 0.2s;
-    cursor: pointer;
 }
 .projects.dark{
     background-color: #E4EDEB;
@@ -211,7 +210,37 @@ html {
     color: #fff;
     transform: translateY(-1px);
 }
+.projects.dark:hover{
+    background-color: #e1eae8;
+    color: black;
+}
 
 .project-about{
     color: #6D7271;
 }
+
+.demo{
+    color: white;
+}
+.demo.dark{
+    color: black;
+}
+
+.hover-url{
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    border-width: 2px;
+    border-color: #73a599;
+}
+
+.hover-url:hover{
+    transform: translate(-5px, -5px);
+    transition: 0.6s;
+    background-color: #73a599;
+}
+.hover-url.dark:hover{
+    border-color: #23c483;
+    background-color: #23c483;
+}
+

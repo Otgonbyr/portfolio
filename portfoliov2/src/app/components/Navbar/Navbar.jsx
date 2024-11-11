@@ -7,7 +7,7 @@ const Navbar = ({ theme, setTheme }) => {
   };
 
   return (
-    <section className={`w-full max-w-[1150px] h-[80px] mx-auto`}>
+    <section id="navbar" className={`w-full max-w-[1150px] h-[80px] mx-auto`}>
       <div className="flex h-full justify-between items-center px-[30px]">
         <button className={`homebtn ${theme}`} aria-label="Home">
           <div className="flex justify-center items-center">
@@ -19,10 +19,9 @@ const Navbar = ({ theme, setTheme }) => {
             />
           </div>
         </button>
-
         <div className="flex gap-[20px] max-w-[400px] justify-around items-center ">
           <ul className={`toplist flex space-x-[8px] ${theme} mx-auto max-md:hidden max-lg:hidden max-xl:hidden`}>
-            <a href="#about" className="hover:underline">
+            <a href="#about" className="hover:underline underline-">
               About
             </a>
             <a href="#project" className="hover:underline">
