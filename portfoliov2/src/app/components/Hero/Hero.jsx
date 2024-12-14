@@ -18,7 +18,7 @@ const Hero = ({theme}) => {
                     </a>
                 </div>
                 <div className="max-md:hidden max-lg:hidden max-xl:hidden">
-                    <img className="w-[350px] h-[450px]" src="potetobg.png" alt="" />
+                    <img className="w-[350px] h-[450px]" src="" alt="" />
                 </div>
             </div>
         </section>
